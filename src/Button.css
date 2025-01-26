@@ -1,0 +1,21 @@
+/* Styles for Button component */
+.custom-button {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .primary-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .secondary-button:hover {
+    background-color: #27ae60;
+  }
+  
+  .danger-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .custom-button:focus {
+    outline: none;
+  }
+  
